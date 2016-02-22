@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADCE59D21C7999C800F83F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE59D11C7999C800F83F67 /* main.m */; };
+		ADCE59D51C7999C800F83F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE59D41C7999C800F83F67 /* AppDelegate.m */; };
+		ADCE59DB1C7999C800F83F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCE59D91C7999C800F83F67 /* Main.storyboard */; };
+		ADCE59DD1C7999C800F83F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCE59DC1C7999C800F83F67 /* Assets.xcassets */; };
+		ADCE59E91C799C0900F83F67 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE59E81C799C0900F83F67 /* SelectViewController.m */; };
+		ADCE59EC1C799E3100F83F67 /* WakeUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE59EB1C799E3100F83F67 /* WakeUpViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADCE59CD1C7999C800F83F67 /* WakeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCE59D11C7999C800F83F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADCE59D31C7999C800F83F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADCE59D41C7999C800F83F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADCE59DA1C7999C800F83F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADCE59DC1C7999C800F83F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADCE59E11C7999C800F83F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCE59E71C799C0900F83F67 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		ADCE59E81C799C0900F83F67 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		ADCE59EA1C799E3100F83F67 /* WakeUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WakeUpViewController.h; sourceTree = "<group>"; };
+		ADCE59EB1C799E3100F83F67 /* WakeUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WakeUpViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCE59CA1C7999C800F83F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCE59C41C7999C800F83F67 = {
+			isa = PBXGroup;
+			children = (
+				ADCE59CF1C7999C800F83F67 /* WakeUp */,
+				ADCE59CE1C7999C800F83F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCE59CE1C7999C800F83F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCE59CD1C7999C800F83F67 /* WakeUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCE59CF1C7999C800F83F67 /* WakeUp */ = {
+			isa = PBXGroup;
+			children = (
+				ADCE59D31C7999C800F83F67 /* AppDelegate.h */,
+				ADCE59D41C7999C800F83F67 /* AppDelegate.m */,
+				ADCE59D91C7999C800F83F67 /* Main.storyboard */,
+				ADCE59E71C799C0900F83F67 /* SelectViewController.h */,
+				ADCE59E81C799C0900F83F67 /* SelectViewController.m */,
+				ADCE59EA1C799E3100F83F67 /* WakeUpViewController.h */,
+				ADCE59EB1C799E3100F83F67 /* WakeUpViewController.m */,
+				ADCE59DC1C7999C800F83F67 /* Assets.xcassets */,
+				ADCE59E11C7999C800F83F67 /* Info.plist */,
+				ADCE59D01C7999C800F83F67 /* Supporting Files */,
+			);
+			path = WakeUp;
+			sourceTree = "<group>";
+		};
+		ADCE59D01C7999C800F83F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADCE59D11C7999C800F83F67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCE59CC1C7999C800F83F67 /* WakeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCE59E41C7999C800F83F67 /* Build configuration list for PBXNativeTarget "WakeUp" */;
+			buildPhases = (
+				ADCE59C91C7999C800F83F67 /* Sources */,
+				ADCE59CA1C7999C800F83F67 /* Frameworks */,
+				ADCE59CB1C7999C800F83F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeUp;
+			productName = WakeUp;
+			productReference = ADCE59CD1C7999C800F83F67 /* WakeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCE59C51C7999C800F83F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lengmolehongyan;
+				TargetAttributes = {
+					ADCE59CC1C7999C800F83F67 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9R8ZE978DU;
+					};
+				};
+			};
+			buildConfigurationList = ADCE59C81C7999C800F83F67 /* Build configuration list for PBXProject "WakeUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADCE59C41C7999C800F83F67;
+			productRefGroup = ADCE59CE1C7999C800F83F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCE59CC1C7999C800F83F67 /* WakeUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADCE59CB1C7999C800F83F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCE59DD1C7999C800F83F67 /* Assets.xcassets in Resources */,
+				ADCE59DB1C7999C800F83F67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCE59C91C7999C800F83F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCE59E91C799C0900F83F67 /* SelectViewController.m in Sources */,
+				ADCE59EC1C799E3100F83F67 /* WakeUpViewController.m in Sources */,
+				ADCE59D51C7999C800F83F67 /* AppDelegate.m in Sources */,
+				ADCE59D21C7999C800F83F67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADCE59D91C7999C800F83F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCE59DA1C7999C800F83F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADCE59E21C7999C800F83F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADCE59E31C7999C800F83F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADCE59E51C7999C800F83F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WakeUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lengmolehongyan.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		ADCE59E61C7999C800F83F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WakeUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lengmolehongyan.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCE59C81C7999C800F83F67 /* Build configuration list for PBXProject "WakeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCE59E21C7999C800F83F67 /* Debug */,
+				ADCE59E31C7999C800F83F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCE59E41C7999C800F83F67 /* Build configuration list for PBXNativeTarget "WakeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCE59E51C7999C800F83F67 /* Debug */,
+				ADCE59E61C7999C800F83F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADCE59C51C7999C800F83F67 /* Project object */;
+}
