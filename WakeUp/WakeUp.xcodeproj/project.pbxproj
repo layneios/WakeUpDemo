@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD8C56881C7E019000FE87BC /* NSDate+WakeUpCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8C56871C7E019000FE87BC /* NSDate+WakeUpCategory.m */; };
 		ADCE59D21C7999C800F83F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE59D11C7999C800F83F67 /* main.m */; };
 		ADCE59D51C7999C800F83F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE59D41C7999C800F83F67 /* AppDelegate.m */; };
 		ADCE59DB1C7999C800F83F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCE59D91C7999C800F83F67 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD8C56861C7E019000FE87BC /* NSDate+WakeUpCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WakeUpCategory.h"; sourceTree = "<group>"; };
+		AD8C56871C7E019000FE87BC /* NSDate+WakeUpCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WakeUpCategory.m"; sourceTree = "<group>"; };
 		ADCE59CD1C7999C800F83F67 /* WakeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCE59D11C7999C800F83F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADCE59D31C7999C800F83F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				ADCE59E81C799C0900F83F67 /* SelectViewController.m */,
 				ADCE59EA1C799E3100F83F67 /* WakeUpViewController.h */,
 				ADCE59EB1C799E3100F83F67 /* WakeUpViewController.m */,
+				AD8C56861C7E019000FE87BC /* NSDate+WakeUpCategory.h */,
+				AD8C56871C7E019000FE87BC /* NSDate+WakeUpCategory.m */,
 				ADCE59DC1C7999C800F83F67 /* Assets.xcassets */,
 				ADCE59E11C7999C800F83F67 /* Info.plist */,
 				ADCE59D01C7999C800F83F67 /* Supporting Files */,
@@ -153,6 +158,7 @@
 			files = (
 				ADCE59E91C799C0900F83F67 /* SelectViewController.m in Sources */,
 				ADCE59EC1C799E3100F83F67 /* WakeUpViewController.m in Sources */,
+				AD8C56881C7E019000FE87BC /* NSDate+WakeUpCategory.m in Sources */,
 				ADCE59D51C7999C800F83F67 /* AppDelegate.m in Sources */,
 				ADCE59D21C7999C800F83F67 /* main.m in Sources */,
 			);

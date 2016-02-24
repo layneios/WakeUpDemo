@@ -8,6 +8,7 @@
 
 #import "SelectViewController.h"
 #import "WakeUpViewController.h"
+#import "NSDate+WakeUpCategory.h"
 
 @interface SelectViewController () 
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
@@ -22,11 +23,7 @@
 }
 
 - (IBAction)beginBtnClick:(UIButton *)sender {
-//    NSLog(@"%@",[self.datePicker.date descriptionWithLocale:@"zh-Hans"]);
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    formatter.dateFormat = @"HH:mm";
-    NSString *selectDateString = [formatter stringFromDate:self.datePicker.date];
-    self.selectDateString = selectDateString;
+    self.selectDateString = [self.datePicker.date HHMMFormatString];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
